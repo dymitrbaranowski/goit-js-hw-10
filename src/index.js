@@ -11,6 +11,7 @@ const ref = {
   error: document.querySelector('.error'),
 };
 const { selector, divCatInfo, loader, error } = ref;
+// console.log(ref);
 
 loader.classList.replace('loader', 'is-hidden');
 error.classList.add('is-hidden');
